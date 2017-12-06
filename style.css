@@ -1,0 +1,154 @@
+@import url("css/normalize.css")
+
+*,
+*::after,
+*::before, {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+body {
+	font-family: "AgencyFB"
+	color: #ffffff;
+	font-size: 36px;
+	margin: 0 auto;
+	max-width: 1200px;
+	background-color:#000000;
+	padding: 0 10px;
+}
+.nav__list {
+	list-style: none;
+	margin-top: -8.6px;
+	padding: 0;
+	display: flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+
+}
+.headline {
+	text-align: center;
+	font-size: 36px;
+}
+
+.content {
+	margin-top: -44.9px;
+	position: relative;
+	height: 1060px;
+}
+
+.footer {
+	position: relative;
+	height: 240px;
+}
+.footer img {
+	position: relative;
+}
+
+.content img {
+	position: relative;
+}
+
+.d1 {
+margin-top: 289px ; 
+margin-left:55px ;
+
+}
+
+.d2 {
+margin-bottom: 36px ; 
+margin-left: 40px ;
+position: fixed;
+
+}
+
+.d3 {
+margin-top:289px ; 
+margin-left: 40px;
+position: fixed;
+
+}
+
+
+.aq1{
+
+margin-left: 53px;
+ margin-top:206px ;
+
+
+}
+
+.aq2 {
+
+margin-left: 73px;
+margin-top:206px ;
+
+
+}
+
+.aq3 {
+margin-left: 73px;
+margin-top: 206px;
+
+}
+
+.gr1 {
+margin-left: 95px;
+margin-top: 193px;
+
+}
+
+.gr2 {
+	margin-left: 159px;
+	margin-top: 193px;
+	
+
+
+}
+
+.gr3 {
+margin-left: 159px;
+margin-top: 193px;
+
+}
+
+.gr1 + .gr2 + .gr3{
+
+margin-top: 193px;
+
+}
+
+.fb {
+	margin-left: 1134px;
+	margin-top: 7px;
+
+}
+.behance {
+	margin-left: 1134px;
+	
+
+}
+.insta {
+	margin-left: 1134px;
+	
+}
+.vk {
+	margin-left: 1134px;
+
+}
+
+.me1 {
+	margin-left: 780px;
+	margin-top: 146px;
+
+}
+
+
+
